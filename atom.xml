@@ -4,7 +4,7 @@
   <title><![CDATA[娜娜小窝]]></title>
   <link href="http://wuyanna.github.com/atom.xml" rel="self"/>
   <link href="http://wuyanna.github.com/"/>
-  <updated>2012-09-29T21:12:47+08:00</updated>
+  <updated>2012-09-29T21:18:12+08:00</updated>
   <id>http://wuyanna.github.com/</id>
   <author>
     <name><![CDATA[Yanna]]></name>
@@ -14,11 +14,18 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Gap Year is awesome]]></title>
+    <title type="html"><![CDATA[Gap Year Is Awesome]]></title>
     <link href="http://wuyanna.github.com/blog/2012/09/29/gap-year-is-awesome/"/>
-    <updated>2012-09-29T20:50:00+08:00</updated>
+    <updated>2012-09-29T00:00:00+08:00</updated>
     <id>http://wuyanna.github.com/blog/2012/09/29/gap-year-is-awesome</id>
-    <content type="html"><![CDATA[<p>　　</p>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &#8220;Gap Year is awesome&#8221;
+date: 2012-09-29 20:50
+comments: true
+categories:
+&#8212;　</p>
 
 <pre><code>虽然在家里总会懒懒的，不过有一点是肯定的，我终于能够没有顾虑的开始自己的事业了。接下来要做的就是调整好状态，让每一天都过得充实，每一天离成功近一点。
 
