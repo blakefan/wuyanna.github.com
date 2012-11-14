@@ -266,7 +266,7 @@ strong {
 
 /* @group Games */
 
-.game {
+.project {
 	width: 940px;
 	height: 286px;
 	clear: left;
@@ -424,35 +424,6 @@ h3 a {
 h3 a:hover {
 	color: #646464;
 	cursor: pointer;
-}
-
-#content_page h3 {
-	padding-bottom: 0px;
-}
-
-h4 {
-	font-size: 22px;
-	text-transform: uppercase;
-	padding-bottom: 20px;
-}
-
-h5 {
-	font-size: 22px;
-	color: #171717;
-	text-transform: uppercase;
-	padding-bottom: 10px;
-}
-
-h6 {
-	font-size: 14px;
-	color: #171717;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding-bottom: 10px;
-}
-
-h6.page-id-18 {
-	padding-top: 15px;
 }
 
 p {
