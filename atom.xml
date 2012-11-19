@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[娜娜小窝]]></title>
+  <title><![CDATA[Nana]]></title>
   <link href="http://wuyanna.github.com/atom.xml" rel="self"/>
   <link href="http://wuyanna.github.com/"/>
-  <updated>2012-11-14T23:30:50+08:00</updated>
+  <updated>2012-11-19T19:52:05+08:00</updated>
   <id>http://wuyanna.github.com/</id>
   <author>
     <name><![CDATA[Yanna]]></name>
