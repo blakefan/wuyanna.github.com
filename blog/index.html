@@ -9,7 +9,7 @@
   <meta name="author" content="Yanna">
 
   
-  <meta name="description" content="It feels so good to be a part of this event. Coding, open source, Google, $, all sound so cool to me.;) The applying process is struggling at first. &hellip;">
+  <meta name="description" content="Time passes really fast. The midterm evaluation starts. Good news is that everything goes on schedule. I just finished the server-side implementation &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -68,11 +68,11 @@
   
 <ul class="main-navigation">
   <li><a href="/">Home</a></li>
+  <li><a href="/blog">Blog</a></li>
   <li><a href="/resume/myresume.html">Resume</a></li>
   <li><a href="/workshop">Projects</a></li>
   <li><a href="/work/">Work</a></li>
   <li><a href="/artistic">Other works</a></li>
-  <li><a href="/blog">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
@@ -81,6 +81,92 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/30/halfway-checkpoint-of-gsoc/">Halfway Checkpoint of GSOC</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-30T01:04:00+08:00" pubdate data-updated="true">Jul 30<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/07/30/halfway-checkpoint-of-gsoc/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Time passes really fast. The midterm evaluation starts. Good news is that everything goes on schedule. I just finished the server-side implementation of the XBRL reporting project as I planned in my proposal. Actually it was an unexpectedly busy summer. The school suggested us to finish a course during the summer and I need to pack my stuff and prepare for my move to Pittsburgh. The daily checkin kept me making progress every day even on a busy day.</p>
+
+<p>My mentor KOJO introduced test-driven development to me, which not only makes the code strictly follow the requirement but also helps the developers to think more about the modularized and decoupled patterns when designing code structures. We paired with each other on writing unit tests and integrationtests. The test tool Mockito is one of the neat things I&#8217;ve learned when pairing with KOJO. Sometimes test code can be hard to write because of all the dependencies a class has. That is where Mockito comes in, mocking the unrelevent dependencies so that you can focus on the method you test.</p>
+
+<p>Making good use of great open source building and managing tools is another secret to the make of a successful open source community. Mifos uses this fantastic tool Gradle to automate the building process. The convenience Gradle brought shocked me when I first built the mifosx server. And I knew more and more about its capability when getting a deeper look inside it. Other great tools like maven and flyway, even tomcat, that Mifos uses are integrated within gradle. It&#8217;s really like an all-in-one package.</p>
+
+<p>I am going to finish the client UI in the next half of gsoc. This means a switch from Java to less familiar Javascript. It is a challenge, but also a good oppportunity to learn about frontend developing.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/18/so-this-is-how-mifos-works/">So This Is How Mifos Works</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-18T10:20:00+08:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
+        
+         | <a href="/blog/2013/06/18/so-this-is-how-mifos-works/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The team bounding period came to an end, and the coding starts! During these few weeks of formal participating in the team&#8217;s weekly routines, I was impressed by how efficient and organised the team worked. I once thought that since mifos, as any common open source community, does not make profit and give pays to contributors, there probably were just a few volunteers scattered all over the world making some commits based on their interest during their free time. I found I was totally wrong when having witnessed the team operating in such an ordered and methodical way.</p>
+
+<p>Using Git is no surprise. It is a great tool for collaboration, especially for open source projects. Project issues are tracked and managed by JIRA system. There are several volunteers testing the master branch code according to test cases every day and bugs are reported on JIRA with great details. Some bugs are assigned to specific person, some are left open to volunteers all over the world. I worked out several issues when I was applying for gsoc. The team&#8217;s immediate and careful responses were out of my expectation. That was also one of the most important reason that I chose mifos over other open source community.</p>
+
+<p>Each week we have a developer meeting or a user meeting. During the biweekly user meeting, a presentation was given by a volunteer on a wide range of topics from the scholar researches to product design and to user showcase. Many of the users are from Africa and Mideast. &#8216;Fighting against poverty&#8217; is not just a slogan, but what mifos is actually achieving. It is wonderful to work for such a community.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -265,6 +351,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/07/30/halfway-checkpoint-of-gsoc/">Halfway Checkpoint of GSOC</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/06/18/so-this-is-how-mifos-works/">So This is how Mifos works</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/05/29/gsoc-2013-started-this-summer-rocks/">GSOC 2013 started. This summer rocks</a>
       </li>
     
@@ -274,10 +368,6 @@
     
       <li class="post">
         <a href="/blog/2012/09/29/start-python/">Start Python</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/09/24/hello-my-first-personal-blog/">Hello! My First Personal Blog</a>
       </li>
     
   </ul>
